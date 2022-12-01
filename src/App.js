@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <h1>Todo List pake React</h1>
+
+            <form>
+                <input type="text" placeholder="Aktifitas apa?" />
+                <button type="submit">Tambah Bro!</button>
+            </form>
+
+            <ul>
+                <li>Makan</li>
+                <li>Minum</li>
+                <li>Ngopi</li>
+                <li>Jalan</li>
+            </ul>
+        </>
+    );
 }
 
 export default App;
