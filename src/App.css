@@ -1,0 +1,31 @@
+.todo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 1px 7px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.button.cancel {
+    background-color: red;
+}
+
+.button.form {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+input {
+    background-color: snow;
+    padding: 4px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
